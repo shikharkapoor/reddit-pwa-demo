@@ -3,6 +3,9 @@ var app = express();
 var fs = require('fs');
 var path = require('path');
 var hbs = require('express-handlebars');
+
+var port = process.env.PORT || 8080;
+
 app.use(express.static(path.join(__dirname)));
 
 app.set('views', path.join(__dirname, '/public/templates'));
@@ -32,6 +35,6 @@ app.get('/', function (req, res) {
 	res.render('index', templateVars);
 });
 
-app.listen(80, function () {
+app.listen(port, function () {
 	console.log('Demo app listening on port 3000!');
 });
