@@ -1,0 +1,12 @@
+.post-container {
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+}
+.post-title a{
+	color: #283593;
+	text-decoration: none;
+}
+.post-author {
+	color: #616161;
+}

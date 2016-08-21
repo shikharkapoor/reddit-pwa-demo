@@ -1,0 +1,17 @@
+
+{
+	"name": "Reddit PWA Demo",
+	"short_name": "PWA Demo",
+	"icons": [
+		{
+			"src": "/public/images/logo.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/",
+	"orientation": "portrait",
+	"display": "standalone",
+	"theme_color": "#3F51B5",
+	"background_color": "#E8EAF6"
+}

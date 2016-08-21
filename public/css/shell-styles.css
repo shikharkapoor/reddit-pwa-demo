@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E8EAF6;
+}
+.content {
+	font-family: Roboto, sans-serif;
+}
+.header {
+	max-height: 100px;
+	background-color: #3F51B5;
+	font-size: 20px;
+	padding: 10px;
+	color: #E8EAF6;
+	font-weight: 300;
+}
+.post-placeholder {
+	padding: 10px;
+	margin: 10px;
+	background-color: #fff;
+}
+.placeholder-long {
+	width: 80%;
+	margin: 20px;
+	height: 15px;
+	background-color: #efefef;
+}
+.placeholder-short {
+	width: 70%;
+	margin: 20px;
+	height: 15px;
+	background-color: #efefef;
+}
+#offline-status-container{
+	display: none;
+	padding: 15px 25px;
+	background-color: red;
+	color: white;
+}
