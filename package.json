@@ -1,6 +1,7 @@
 {
-  "name": "application-name",
+  "name": "Reddit PWA Demo",
   "version": "0.0.1",
+  "description": "Reddit front page PWA demo",
   "dependencies": {
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"
